@@ -1,0 +1,1 @@
+-rwxrwx---. 1 wz4195 domain users 11527 Oct 16 23:08 hw3opt_c

@@ -1,0 +1,3 @@
+-rwxrwx---. 1 wz4195 domain users 23726 Oct 16 02:00 hw3t_cpp
+-rwxrwx---. 1 wz4195 domain users 11093 Oct 16 01:28 hw3t_c
+

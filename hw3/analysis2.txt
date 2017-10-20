@@ -1,0 +1,50 @@
+C code without optimization:
+The best least square line is: Y = 1.26393 * X + 0.823035
+Elapsed CPU time (datainput) = 4.34 sec.
+Elapsed CPU time per Iteration(datainput, 1000) = 4.34e-03 sec.
+Elapsed CPU time (calculation) = 1.62 sec.
+Elapsed CPU time per Iteration(calculation, 50000) = 3.24e-05 sec.
+Total size: 5810
+------------------------------------------------------------------
+C code with optimization(O0):
+ The best least square line is: Y = 1.26393 * X + 0.823035
+Elapsed CPU time (datainput) = 4.12 sec.
+Elapsed CPU time per Iteration(datainput, 1000) = 4.12e-03 sec.
+Elapsed CPU time (calculation) = 1.52 sec.
+Elapsed CPU time per Iteration(calculation, 50000) = 3.04e-05 sec.
+Total size: 6242
+
+C code with optimization level 1(O1):
+ The best least square line is: Y = 1.26393 * X + 0.823035
+Elapsed CPU time (datainput) = 4.24 sec.
+Elapsed CPU time per Iteration(datainput, 1000) = 4.24e-03 sec.
+Elapsed CPU time (calculation) = 0.35 sec.
+Elapsed CPU time per Iteration(calculation, 50000) = 7.00e-06 sec.
+Total size: 4313
+
+C code with optimization level 2(O2):
+The best least square line is: Y = 1.26393 * X + 0.823035
+Elapsed CPU time (datainput) = 3.62 sec.
+Elapsed CPU time per Iteration(datainput, 1000) = 3.62e-03 sec.
+Elapsed CPU time (calculation) = 0.35 sec.
+Elapsed CPU time per Iteration(calculation, 50000) = 7.00e-06 sec.
+Total size: 4409
+
+C code with optimization level 3(O3):
+The best least square line is: Y = 1.26393 * X + 0.823035
+Elapsed CPU time (datainput) = 2.25 sec.
+Elapsed CPU time per Iteration(datainput, 1000) = 2.25e-03 sec.
+Elapsed CPU time (calculation) = 0.36 sec.
+Elapsed CPU time per Iteration(calculation, 50000) = 7.20e-06 sec.
+Total size: 4625
+
+The C code was first optimized using the loop unrolling method, where
+replications of the loop body are made in order to reduce the total
+number of iterations in the loop, this will reduce loop overhead while 
+increasing the Interleaving independent calculations(ILP). 
+
+Then at the compiler's level, by changing the optimization level(O0,O1,O2,O3)
+The compiler will automatically optimize the speed and the size of the code.
+Overall the program took the least amount of time to read the input data file
+and complete all the calculations when it's on optimization level 3. The size
+of the program is the smallest when the optimization level is set to 1.

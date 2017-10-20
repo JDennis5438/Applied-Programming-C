@@ -1,0 +1,23 @@
+Performance result for hw3cpp.cpp: 
+The best least squares line is: Y = 1.26393 * X + 0.823035
+Elapsed CPU time (datainput) = 6.58 sec.
+Elapsed CPU time per Iteration(datainput, 1000) = 6.58e-03 sec.
+Elapsed CPU time (calculation) = 15.41 sec.
+Elapsed CPU time per Iteration(calculation, 50000) = 3.08e-04 sec.
+Total C++ file size when using "ls -l" command: 23726
+Total C++ file size when using "size -A" command: 12452
+
+Performance result for hw3c.c:
+The best least square line is: Y = 1.26393 * X + 0.823035
+Elapsed CPU time (datainput) = 4.34 sec.
+Elapsed CPU time per Iteration(datainput, 1000) = 1.71e-02 sec.
+Elapsed CPU time (calculation) = 1.61 sec.
+Elapsed CPU time per Iteration(calculation, 50000) = 7.00e-06 sec.
+Total C file size when using "ls -l" command: 11093
+Total C file size when using "size -A" command: 5810
+
+By analyze the result from above, in terms of the speed, it's apparent that
+C program takes less time to read the data input file and is much faster at 
+calculating the result. In terms of the size, C++ program files are much 
+larger than the C program files. Overall speaking, C program is both smaller and
+faster than C++ program which is a better choice.

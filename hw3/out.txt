@@ -1,0 +1,20 @@
+Testing hw3t_c
+Elapsed CPU time (datainput) = 4.28 sec. 
+Elapsed CPU time per Iteration(datainput, 1000) = 4.28e-03 sec. 
+Elapsed CPU time (calculation) = 1.61 sec. 
+Elapsed CPU time per Iteration(calculation, 50000) = 3.22e-05 sec. 
+The best least square line is: Y = 1.26393 * X + 0.823035
+
+Testing hw3t_cpp
+The best least squares line is: Y = 1.26393 * X + 0.823035
+Elapsed CPU time (datainput) = 6.39 sec. 
+Elapsed CPU time per Iteration(datainput, 1000) = 6.39e-03 sec. 
+Elapsed CPU time (calculation) = 15.74 sec. 
+Elapsed CPU time per Iteration(calculation, 50000) = 3.15e-04 sec. 
+
+Testing hw3opt_c
+Elapsed CPU time (datainput) = 4.18 sec. 
+Elapsed CPU time per Iteration(datainput, 1000) = 4.18e-03 sec. 
+Elapsed CPU time (calculation) = 1.52 sec. 
+Elapsed CPU time per Iteration(calculation, 50000) = 3.04e-05 sec. 
+The best least square line is: Y = 1.26393 * X + 0.823035

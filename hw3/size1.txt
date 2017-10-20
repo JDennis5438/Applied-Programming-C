@@ -1,0 +1,64 @@
+hw3t_cpp  :
+section               size      addr
+.interp                 28   4194816
+.note.ABI-tag           32   4194844
+.note.gnu.build-id      36   4194876
+.gnu.hash               56   4194912
+.dynsym                696   4194968
+.dynstr                822   4195664
+.gnu.version            58   4196486
+.gnu.version_r         112   4196544
+.rela.dyn               72   4196656
+.rela.plt              576   4196728
+.init                   24   4197304
+.plt                   400   4197328
+.text                 5320   4197728
+.fini                   14   4203048
+.rodata                560   4203064
+.eh_frame_hdr          476   4203624
+.eh_frame             2020   4204104
+.gcc_except_table       77   4206124
+.ctors                  24   6303744
+.dtors                  16   6303768
+.jcr                     8   6303784
+.dynamic               448   6303792
+.got                     8   6304240
+.got.plt               216   6304248
+.data                    4   6304464
+.bss                   304   6304480
+.comment                45         0
+Total                12452
+
+--------------------------------------
+
+hw3t_c  :
+section              size      addr
+.interp                28   4194816
+.note.ABI-tag          32   4194844
+.note.gnu.build-id     36   4194876
+.gnu.hash              36   4194912
+.dynsym               360   4194952
+.dynstr               145   4195312
+.gnu.version           30   4195458
+.gnu.version_r         48   4195488
+.rela.dyn              48   4195536
+.rela.plt             288   4195584
+.init                  24   4195872
+.plt                  208   4195896
+.text                2968   4196112
+.fini                  14   4199080
+.rodata               656   4199096
+.eh_frame_hdr          52   4199752
+.eh_frame             196   4199808
+.ctors                 16   6297160
+.dtors                 16   6297176
+.jcr                    8   6297192
+.dynamic              400   6297200
+.got                    8   6297600
+.got.plt              120   6297608
+.data                   4   6297728
+.bss                   24   6297736
+.comment               45         0
+Total                5810
+
+

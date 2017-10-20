@@ -1,0 +1,39 @@
+2-1: 
+To run gdb compiler on the executable file, the command "gdb ./debugTst" was
+entered. As the gdb attemps to run the command line option "run divide", the
+program crashed on line 24 with a report of program received signal SIGFPE,
+Arithmetic exception.
+
+0x000000000040066b in main (argc=2, argv=0x7fffffffe208) at debugTst.c:24
+24      debugTst.c: No such file or directory.
+        in debugTst.c
+
+2-2:
+By setting a break point on line 23 just before the program crash location,
+using the command "break 23". Then the program is recompiled. The argument
+count is 2 and argument vector is 0x7fffffffe208 for the main function.
+
+
+3-1: 
+When running the program using valgrind memory check command, there are
+2,048 bytes in 1 blocks in use at exit, which means 2,048 bytes in 1 blocks
+are definitely lost.
+
+3-2:
+As the program is reran with "good"
+total heap usage: 1 allocs, 1 frees, 4,094 bytes allocated
+
+Makefile implementation
+
+The Makefile is consist of five sections, they are test, clean, mem, all and
+help. 
+Make all command builds the dynamic array and test code binary.
+Make test command will use the generated executable file named TDA and
+take "us-eng-words.txt" as input data file, it stores the result in out.txt
+and prints out the result that is consist of first and last 6 words in the
+file, as well as the total number of words.
+Make mem command will run the functional test using valgrind and stores the
+valgrind memory analysis result in the mem.txt, then it prints out the memory
+analysis, it will take about 2 minutes for valgrind to process.
+Make help commad will display all the available make options.
+Make clean command deletes the generated .o files as well as the output files.

@@ -1,0 +1,31 @@
+hw3opt_c  :
+section              size      addr
+.interp                28   4194816
+.note.ABI-tag          32   4194844
+.note.gnu.build-id     36   4194876
+.gnu.hash              36   4194912
+.dynsym               360   4194952
+.dynstr               145   4195312
+.gnu.version           30   4195458
+.gnu.version_r         48   4195488
+.rela.dyn              48   4195536
+.rela.plt             288   4195584
+.init                  24   4195872
+.plt                  208   4195896
+.text                3400   4196112
+.fini                  14   4199512
+.rodata               656   4199528
+.eh_frame_hdr          52   4200184
+.eh_frame             196   4200240
+.ctors                 16   6297592
+.dtors                 16   6297608
+.jcr                    8   6297624
+.dynamic              400   6297632
+.got                    8   6298032
+.got.plt              120   6298040
+.data                   4   6298160
+.bss                   24   6298168
+.comment               45         0
+Total                6242
+
+

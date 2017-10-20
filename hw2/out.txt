@@ -1,0 +1,20 @@
+The first six entries are:
+
+1 dermatitis 	 
+2 toxins 	 
+3 wisted 	 
+4 benedictions 	 
+5 Tera 	 
+6 petrochemistry's 	 
+
+The last six entries are:
+
+206585 harken 	 
+206586 Pict's 	 
+206587 Sidman's 	 
+206588 intercohort 	 
+206589 pressurize 	 
+206590 besotting 	 
+
+The total number of words in the file is: 206590
+
